@@ -15,9 +15,9 @@ let charadex = {};
 /* Any preview links will still show Charadex's information
 /* ==================================================================== */
 charadex.site = {
-  title: "Charadex",
-  url: "https://charadex-team.github.io/charadex-v1.0/",
-  description: `A tool for organizing small ARPGs and species.`
+  title: "ASTALIDs",
+  url: "https://www.astalids.com/",
+  description: `A collection and group website for the ASTALID ARPG!`
 }
 
 /* ==================================================================== */
@@ -26,7 +26,7 @@ charadex.site = {
 /* ==================================================================== */
 charadex.sheet = {
 
-  id: "1GwgfLizD3HQCieGia6di-TfU4E3EipT9Jb0BDZQwNak",
+  id: "1uN-3k1SOT7UEKxxJsjXiq-5547WP4bDpKrvn7y_2gN0",
 
   pages: {
     masterlist:    "masterlist",
@@ -36,18 +36,19 @@ charadex.sheet = {
     items:         "items",
     traits:        "traits",
     prompts:       "prompts",
+    gallery:       "image gallery",
     faq:           "faq",
     staff:         "mods",
   },
 
   options: {
 
-    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
-    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
-    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
-    species: ['All', 'Dog', 'Cat', 'Bunny'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
-    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
+    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design', 'NPC'],
+    statuses: ['All', 'Trade', 'Gift', 'Voided', 'For Offers', 'Not For Offers'],
+    rarity: ['All', 'COMMON', 'UNCOMMON', 'RARE', 'LEGENDARY', 'ANCIENT', 'MUTATION', 'SEASONAL', 'INFECTED', 'FERAL', 'MOD'],
+    species: ['All', 'Mammalian', 'Reptilian', 'Avian', 'Aquatic', 'Insectoid', 'ASTALID'],
+    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Trickets'],
+    traitTypes: ['All', 'Eyes', 'Horns', 'Body', 'Constitution', 'Liquid', 'Container', 'Clear', 'Mutation', 'Seasonal', 'Infected', 'MOD', 'Feral']
 
   }
 
