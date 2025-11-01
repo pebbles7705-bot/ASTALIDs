@@ -779,7 +779,7 @@ p:last-child {
 }
 
 .badge-legendary {
-  background-color: var(--cd-rarity-legednary-bg);
+  background-color: var(--cd-rarity-legendary-bg);
   color: var(--cd-rarity-legendary-txt);
 }
 
